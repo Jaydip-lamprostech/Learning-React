@@ -20,18 +20,23 @@ function ConfirmationModel2({ isOpen, onClose }, ref) {
   if (!isOpen) return null;
   return (
     <>
-      <h1>Title</h1>
-      <button className="close-btn" onClick={onClose} ref={closeRef}>
-        X
-      </button>
-      <br />
-      <div>Do you confirm ?</div>
-      <button className="yes-btn" ref={yesRef}>
-        Yes
-      </button>
-      <button className="no-btn" ref={noRef}>
-        No
-      </button>
+      <div className="confirmation-model-2-main">
+        <h1>Title</h1>
+        <button className="close-btn" onClick={onClose} ref={closeRef}>
+          X
+        </button>
+
+        <br />
+        <div>
+          <h2>Do you confirm ?</h2>
+        </div>
+        <button className="yes-btn" ref={yesRef}>
+          Yes
+        </button>
+        <button className="no-btn" ref={noRef}>
+          No
+        </button>
+      </div>
     </>
   );
 }
