@@ -1,0 +1,21 @@
+button.yes-btn,
+button.no-btn,
+button.close-btn {
+  margin: 20px;
+  border: none;
+
+  padding: 1rem 0.8rem;
+  font-size: 2rem;
+}
+button.yes-btn {
+  background-color: lightgreen;
+  border: 2px solid lightgreen;
+}
+button.no-btn {
+  background-color: lightcoral;
+  border: 2px solid lightcoral;
+}
+
+button:focus {
+  border: 2px solid black;
+}
