@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import UseDebugValue from "./components/useDebugValue/UseDebugValue";
+// import UseDebugValue from "./components/useDebugValue/UseDebugValue";
+import UseDeferredValue from "./components/useDeferredValue/UseDeferredValue";
 // import ConfirmationModel from "./components/useImperativeHandle/ConfirmationModel";
 // import UseLayoutEffect from "./components/useLayoutEffect/UseLayoutEffect";
 // import CounterOne from "./components/useReduce/CounterOne";
@@ -13,7 +14,8 @@ function App() {
       {/* <CounterTwo /> */}
       {/* <ConfirmationModel /> */}
       {/* <UseLayoutEffect /> */}
-      <UseDebugValue />
+      {/* <UseDebugValue /> */}
+      <UseDeferredValue />
     </div>
   );
 }
